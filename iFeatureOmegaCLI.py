@@ -3916,7 +3916,7 @@ class iDNA(Sequence):
     def __init__(self, file):
         super(iDNA, self).__init__(file=file)
         self.__default_para_dict = {
-            'Kmer type 1': {'kmer': 3},
+            'Kmer type 1': {'kmer': 4},
             'Kmer type 2': {'kmer': 3},
             'RCKmer type 1': {'kmer': 3},
             'RCKmer type 2': {'kmer': 3},
